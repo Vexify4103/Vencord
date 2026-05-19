@@ -130,6 +130,33 @@
     color: var(--interactive-icon-active);
 }
 
+.vc-permviewer-modal-content {
+    padding: 16px 4px 16px 16px;
+}
+
+.vc-permviewer-modal-title {
+    flex-grow: 1;
+}
+
+.vc-permviewer-modal-nickname-btn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--interactive-muted);
+    background: none;
+    border: none;
+    padding: 4px;
+    border-radius: 4px;
+    margin-right: 4px;
+    transition: color 0.1s ease-in;
+}
+
+.vc-permviewer-modal-nickname-btn:hover,
+.vc-permviewer-modal-nickname-btn-active {
+    color: var(--interactive-active);
+}
+
 /* copy pasted from discord cause impossible to webpack find */
 .vc-permviewer-role-button {
     border-radius: var(--radius-sm);
